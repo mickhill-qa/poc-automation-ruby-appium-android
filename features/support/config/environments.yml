@@ -1,0 +1,8 @@
+dev:
+#  app_path: 'install-dev.apk'
+
+qa:
+#  app_path: 'install-qa.apk'
+
+prod:
+#  app_path: 'install-prod.apk'
