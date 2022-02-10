@@ -43,6 +43,7 @@ when "android"
       platformVersion: "11.0",
       deviceName: "device",
       # app: APP_PATH,
+      browserName: "Chrome",
       noReset: false,
       fullReset: false,
       ensureWebviewsHavePages: "true",
