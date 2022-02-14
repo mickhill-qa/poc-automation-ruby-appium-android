@@ -6,6 +6,25 @@ Para instalar o Ruby vamos até o site: [RubyInstaller.org / Downloads](https://
 
 Em seguida um **Command Prompt** será aberto: Pressione *Enter* e espere finalizar.
 
+Obs.: Para que o Appium funcionar corretamente **no Windows** é necessário que uma dependencia seja configurada no Ruby após a instalação:
+  - Abra o CMD e Instale a `gem eventmachine` (*neste projeto estamos usando a v1.2.7*) executando os seguinte comando:
+    ```ruby
+    gem install eventmachine -v 1.2.7 --platform ruby
+    ```
+  - Abra sua pasta equivalente a pasta abaixo no Windows Explore:
+    ```
+    C:\Ruby27-x64\lib\ruby\gems\2.7.0\gems\eventmachine-1.2.7-x64-mingw32\lib
+    ```
+  - E abra o arquivo:
+    ```
+    eventmachine.rb
+    ```
+  - Escreva **na primeira linha** de código do arquivo: 
+    ```ruby
+    require 'em/pure_ruby'
+    
+    ```
+
 
 ---
 #### **Linux**
