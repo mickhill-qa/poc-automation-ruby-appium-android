@@ -52,7 +52,7 @@
 Este projeto foi executado no **Windows 10**, **Windows 11** e no **MacOS Monterey 12.2** com as seguintes versões de ferramentas:
 
   - Ruby 2.7
-  - JDK 11
+  - JDK 11.0.7
   - Appium Desktop 1.20.2
   - Simulador Android 11.0 - Pixel 4 API 30
   
