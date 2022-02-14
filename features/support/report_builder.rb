@@ -4,7 +4,7 @@ at_exit do
     config.json_path        = "reports/report.json"                                                                                   # pasta onde salva o json
     config.report_path      = REPORT_PATH + Time.now.strftime('%Y-%m-%d_-_%H-%M-%S_-_').to_s + SELECTED_DEVICE + "_" + SELECTED_ENV   # pasta onde salva o html
     config.report_types     = [:html]                                                                                                 # tipo de report a exportar
-    config.report_title     = "mobills-android-automated-test"                                                                        # nome do report - <img src='#' />
+    config.report_title     = "poc-automation-ruby-appium-android"                                                                        # nome do report - <img src='#' />
     config.color            = "blue"                                                                                                  # cor do report
     config.compress_images  = false
     config.include_images   = true                                                                                                    # coloca imagens ou não

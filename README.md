@@ -1,1 +1,1 @@
-# learning-ruby-appium-android
+# poc-automation-ruby-appium-android
