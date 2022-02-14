@@ -24,7 +24,7 @@ end
 ENVIRONMENT      = YAML.load_file(File.dirname(__FILE__) + "/config/environments.yml")[SELECTED_ENV]
 SCREENSHOT_PATH  = "reports/screenshots/"
 REPORT_PATH      = "reports/report-builder/"
-# APP_PATH = File.join(File.dirname(__FILE__ ), ("apps/" + ENVIRONMENT['app_path']))
+APP_PATH = File.join(File.dirname(__FILE__ ), ("apps/" + ENVIRONMENT['app_path']))
 
 ## Definiçoes de Devices
 # escolhido em cucumber.yml
@@ -42,8 +42,7 @@ when "android"
       platformName: "Android",
       platformVersion: "11.0",
       deviceName: "device",
-      # app: APP_PATH,
-      browserName: "Chrome",
+      app: APP_PATH,
       noReset: false,
       fullReset: false,
       ensureWebviewsHavePages: "true",
