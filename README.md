@@ -11,8 +11,6 @@
 
 # poc-automation-ruby-appium-android
 
-
----
 ## Estrutura do projeto
 [![Ruby Version][ruby-image]][ruby-url]
 [![Appium_lib Version][appium_lib-image]][appium_lib-url]
