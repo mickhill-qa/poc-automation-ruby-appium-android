@@ -1,0 +1,8 @@
+dev:
+  app_path: 'install.apk'
+
+qa:
+  app_path: 'mobills_controle_de_financas_5.32.2_apkcombo.com.apk'
+
+prod:
+  app_path: 'install.apk'
