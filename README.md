@@ -70,9 +70,10 @@ Em seguida você precisará do **JAVA_HOME** e do **ANDROID_HOME** para executar
   - [Instalar Android Studio (SDK)](docs/config-env/install-android-studio-sdk.md)
 
 
-Agora você precisará do **Appium Server** para uso do App no device e do **bundler** para baixar as dependências de pacotes do projeto ruby conforme o arquivo ***"[Gemfile](Gemfile)"***.
+Agora você precisará do **Appium Server** e **WebDriver** para uso do App no device e do **bundler** para baixar as dependências de pacotes do projeto ruby conforme o arquivo ***"[Gemfile](Gemfile)"***.
 
   - [Instalar Appium Desktop](docs/config-env/install-appium-desktop.md)
+  - [Instalar WebDriver](docs/config-env/install-webdriver.md)
   - [Instalar Bundler](docs/config-env/install-bundler.md)
 
 

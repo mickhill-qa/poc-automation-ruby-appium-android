@@ -15,9 +15,7 @@ Funcionalidade: Login Mobills
     E eu clico em avancar
     Entao o sistema exibe uma mensagem de erro no campo de email: <MSG_ERRO>
     Exemplos:
-      | EMAIL_INVALIDO | MSG_ERRO                |
-      | ""             | "Required field"        |
-      | " "            | "Invalid email field"   |
-      | "@"            | "Invalid email field"   |
-      | "teste"        | "Invalid email field"   |
-      | "teste@"       | "Invalid email field"   |
+      | EMAIL_INVALIDO | MSG_ERRO              |
+      | ""             | "Required field"      |
+      | " "            | "Invalid email field" |
+      | "@"            | "Resultado Errado"    |
