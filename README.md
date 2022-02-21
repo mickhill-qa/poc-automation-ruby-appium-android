@@ -10,17 +10,16 @@
 [report_builder-url]: https://reportbuilder.rajatthareja.com/
 
 # poc-automation-ruby-appium-android
-
-## Estrutura do projeto
 [![Ruby Version][ruby-image]][ruby-url]
 [![Appium_lib Version][appium_lib-image]][appium_lib-url]
 [![Cucumber Version][cucumber-image]][cucumber-url]
 [![Rspec Version][rspec-image]][rspec-url]
 [![ReportBuilder Version][report_builder-image]][report_builder-url]
+
+### Estrutura do projeto
 ```
 ./
 ├── docs/
-│   └── config-env/
 ├── features/
 │   ├── hooks/
 │   ├── pages/
